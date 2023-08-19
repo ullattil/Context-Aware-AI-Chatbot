@@ -1,0 +1,26 @@
+{
+  "name": "context-aware-ai-chatbot",
+  "version": "1.0.0",
+  "description": "One of the essential aspects of an engaging chatbot is its ability to maintain context throughout the conversation. By keeping track of the conversation history, our AI chatbot can provide relevant, personalized, and coherent responses, which significantly enhances the overall user experience. In this section, we will focus on how our chatbot web application incorporates conversation history to deliver a context-aware and interactive experience. Our implementation ensures that each new response from the GPT-3.5 Turbo API takes into account not only the user’s latest input but also the entire conversation history. This context-aware approach allows the chatbot to refer back to previous exchanges and respond appropriately, creating a more natural and engaging interaction between the user and the chatbot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ullattil/Context-Aware-AI-Chatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ullattil/Context-Aware-AI-Chatbot/issues"
+  },
+  "homepage": "https://github.com/ullattil/Context-Aware-AI-Chatbot#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "openai": "^4.0.0",
+    "socket.io": "^4.7.2"
+  }
+}
