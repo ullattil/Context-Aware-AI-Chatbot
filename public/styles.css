@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: turquoise;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,14 +10,14 @@ body {
 
 #chat-container{
     width: 400px;
-    border: 1px solid aqua;
+    border: 1px solid olivedrab;
+    background-color: aquamarine;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
 }
 
 #messages{
-    flex-grow: 1;
     height: 300px;
     padding: 10px;
     overflow-y: auto;
